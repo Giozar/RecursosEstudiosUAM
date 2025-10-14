@@ -1,0 +1,9 @@
+#include <stdio.h> 
+ 
+int main( ) { 
+   int dia, mes, anyo; 
+   while (scanf("%d/%d/%d", &dia, &mes, &anyo) == 3) { 
+      printf("%d/%d/%d\n", dia, mes, anyo + (anyo >= 74 ? 1900 : 2000)); 
+   } 
+   return 0; 
+}
