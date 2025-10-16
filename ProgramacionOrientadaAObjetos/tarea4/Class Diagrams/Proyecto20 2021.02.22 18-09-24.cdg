@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Proyecto20">
+  <ClassDiagramComponents>
+    <Interface name="Alien" package="proyecto20" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Methods>
+        <Method name="planeta" returnType="void" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+    <Class name="Batman" package="proyecto20" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="BlackAdam" package="proyecto20" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="habilidad" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="BlackManta" package="proyecto20" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CapitanAmerica" package="proyecto20" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="mision" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Carnage" package="proyecto20" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Darksaide" package="proyecto20" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Deadpool" package="proyecto20" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Deathstroke" package="proyecto20" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Dios" package="proyecto20" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Methods>
+        <Method name="habilidad" returnType="void" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+    <Class name="DoctorOctopus" package="proyecto20" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="DoctorStrange" package="proyecto20" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Doomsday" package="proyecto20" visibility="public" xPosition="1220.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="formacomunicarse" returnType="void" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="DrManhattan" package="proyecto20" visibility="public" xPosition="1520.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="habilidad" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Flash" package="proyecto20" visibility="public" xPosition="1820.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Hulk" package="proyecto20" visibility="public" xPosition="2120.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="formacomunicarse" returnType="void" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Interface name="Humano" package="proyecto20" visibility="public" xPosition="20.0" yPosition="820.0">
+      <Methods>
+        <Method name="ocupacion" returnType="void" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+    <Class name="IronMan" package="proyecto20" visibility="public" xPosition="320.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Joker" package="proyecto20" visibility="public" xPosition="620.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Lobo" package="proyecto20" visibility="public" xPosition="920.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Magneto" package="proyecto20" visibility="public" xPosition="1220.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Monstruo" package="proyecto20" visibility="public" xPosition="1520.0" yPosition="820.0">
+      <Methods>
+        <Method name="formacomunicarse" returnType="void" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+    <Class name="MuerteRoja" package="proyecto20" visibility="public" xPosition="1820.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="proposito" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MujerMaravilla" package="proyecto20" visibility="public" xPosition="2120.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="habilidad" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Persona" package="proyecto20" visibility="public" xPosition="20.0" yPosition="1220.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Personaje" package="proyecto20" visibility="public" xPosition="320.0" yPosition="1220.0">
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public" isAbstract="true"/>
+        <Method name="getCritico" returnType="int" visibility="public" isAbstract="true"/>
+        <Method name="getPoder" returnType="int" visibility="public" isAbstract="true"/>
+        <Method name="defensa" returnType="int" visibility="public" isAbstract="true"/>
+        <Method name="vida" returnType="int" visibility="public" isAbstract="true"/>
+        <Method name="nomArma" returnType="String" visibility="public" isAbstract="true">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public" isAbstract="true"/>
+        <Method name="presentacion" returnType="void" visibility="public" isAbstract="true"/>
+        <Method name="debilidad" returnType="void" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+    <Class name="Proyecto20" package="proyecto20" visibility="public" xPosition="620.0" yPosition="1220.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Riven" package="proyecto20" visibility="public" xPosition="920.0" yPosition="1220.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Rorschach" package="proyecto20" visibility="public" xPosition="1220.0" yPosition="1220.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Skrull" package="proyecto20" visibility="public" xPosition="1520.0" yPosition="1220.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="formacomunicarse" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Spiderman" package="proyecto20" visibility="public" xPosition="1820.0" yPosition="1220.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SuperGirl" package="proyecto20" visibility="public" xPosition="2120.0" yPosition="1220.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+        <Method name="habilidad" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Superheroe" package="proyecto20" visibility="public" xPosition="20.0" yPosition="1620.0">
+      <Methods>
+        <Method name="mision" returnType="void" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+    <Class name="SuperMan" package="proyecto20" visibility="public" xPosition="320.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+        <Method name="habilidad" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Thanos" package="proyecto20" visibility="public" xPosition="620.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Thor" package="proyecto20" visibility="public" xPosition="920.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+        <Method name="habilidad" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Tierra" package="proyecto20" visibility="public" xPosition="1220.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="batalla" returnType="int" visibility="package" isStatic="true">
+          <Argument type="Personaje" name="su"/>
+          <Argument type="Personaje" name="vi"/>
+        </Method>
+        <Method name="seleccionar" returnType="Personaje[]" visibility="package" isStatic="true">
+          <Argument type="Personaje[]" name="sujetos"/>
+          <Argument type="int" name="participantes"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Venom" package="proyecto20" visibility="public" xPosition="1520.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="proposito" returnType="void" visibility="public"/>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="planeta" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Villano" package="proyecto20" visibility="public" xPosition="1820.0" yPosition="1620.0">
+      <Methods>
+        <Method name="proposito" returnType="void" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+    <Class name="Wolverine" package="proyecto20" visibility="public" xPosition="2120.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="presentacion" returnType="void" visibility="public"/>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getCritico" returnType="int" visibility="public"/>
+        <Method name="debilidad" returnType="void" visibility="public"/>
+        <Method name="vida" returnType="int" visibility="public"/>
+        <Method name="getPoder" returnType="int" visibility="public"/>
+        <Method name="defensa" returnType="int" visibility="public"/>
+        <Method name="getArmaHabilidad" returnType="int" visibility="public"/>
+        <Method name="nomArma" returnType="String" visibility="public">
+          <Argument type="int" name="habilidad"/>
+        </Method>
+        <Method name="ocupacion" returnType="void" visibility="public"/>
+        <Method name="mision" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DoctorStrange" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.CapitanAmerica" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperMan" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Hulk" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Deadpool" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Carnage" target="proyecto20.Alien"/>
+    <UseRelation source="proyecto20.Tierra" target="proyecto20.Personaje" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.BlackManta" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Darksaide" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DrManhattan" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Wolverine" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Deathstroke" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Thanos" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Carnage" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Persona" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DoctorOctopus" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperMan" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Batman" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Lobo" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Flash" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperGirl" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.IronMan" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Hulk" target="proyecto20.Monstruo"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Magneto" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Thor" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Riven" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Thor" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Carnage" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DrManhattan" target="proyecto20.Dios"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Spiderman" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DoctorOctopus" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Rorschach" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DrManhattan" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Venom" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Venom" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.MuerteRoja" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperGirl" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.CapitanAmerica" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Hulk" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Riven" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.MujerMaravilla" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Flash" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Riven" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.IronMan" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Persona" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Batman" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperMan" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperGirl" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Venom" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.BlackAdam" target="proyecto20.Dios"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.MuerteRoja" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Wolverine" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.CapitanAmerica" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Thanos" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Joker" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Carnage" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Darksaide" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DoctorOctopus" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Rorschach" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Deadpool" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DoctorStrange" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Spiderman" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Doomsday" target="proyecto20.Monstruo"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Thor" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Batman" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Magneto" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Skrull" target="proyecto20.Monstruo"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.BlackAdam" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Doomsday" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Skrull" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Darksaide" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Flash" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperGirl" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.BlackManta" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperGirl" target="proyecto20.Dios"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Skrull" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Thor" target="proyecto20.Dios"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DrManhattan" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Venom" target="proyecto20.Personaje"/>
+    <IsRelation name="is" source="proyecto20.Dios" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Lobo" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperMan" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Wolverine" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.DoctorStrange" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Deathstroke" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Lobo" target="proyecto20.Alien"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.SuperMan" target="proyecto20.Dios"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Doomsday" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Joker" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.BlackManta" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Deathstroke" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.MuerteRoja" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.MujerMaravilla" target="proyecto20.Dios"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Deadpool" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Spiderman" target="proyecto20.Superheroe"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Thanos" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Joker" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Magneto" target="proyecto20.Humano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Skrull" target="proyecto20.Personaje"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.BlackAdam" target="proyecto20.Villano"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="proyecto20.Doomsday" target="proyecto20.Personaje"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Proyecto23">
+  <ClassDiagramComponents>
+    <Class name="Carburador" package="proyecto23" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="modelo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="getModelo" returnType="String" visibility="public"/>
+        <Method name="setModelo" returnType="void" visibility="public">
+          <Argument type="String" name="modelo"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Cilindro" package="proyecto23" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="caracteristica" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="caracteristica"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="getCaracteristica" returnType="String" visibility="public"/>
+        <Method name="setCaracteristica" returnType="void" visibility="public">
+          <Argument type="String" name="caracteristica"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Departamento" package="proyecto23" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="division" type="String" visibility="private"/>
+        <Field name="profesores" type="Profesor[]" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="division"/>
+          <Argument type="Profesor[]" name="profesores"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getDivision" returnType="String" visibility="public"/>
+        <Method name="setDivision" returnType="void" visibility="public">
+          <Argument type="String" name="division"/>
+        </Method>
+        <Method name="getProfesores" returnType="Profesor[]" visibility="public"/>
+        <Method name="setProfesores" returnType="void" visibility="public">
+          <Argument type="Profesor[]" name="profesores"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Motor" package="proyecto23" visibility="public" xPosition="49.0" yPosition="449.0">
+      <Fields>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="caballosFuerza" type="float" visibility="private"/>
+        <Field name="troque" type="float" visibility="private"/>
+        <Field name="carburador" type="Carburador" visibility="private"/>
+        <Field name="cilindro" type="Cilindro" visibility="private"/>
+        <Field name="pistones" type="Piston[]" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="marca"/>
+          <Argument type="float" name="caballosFuerza"/>
+          <Argument type="float" name="troque"/>
+          <Argument type="Carburador" name="carburador"/>
+          <Argument type="Cilindro" name="cilindro"/>
+          <Argument type="Piston[]" name="pistones"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="getCaballosFuerza" returnType="float" visibility="public"/>
+        <Method name="setCaballosFuerza" returnType="void" visibility="public">
+          <Argument type="float" name="caballosFuerza"/>
+        </Method>
+        <Method name="getTroque" returnType="float" visibility="public"/>
+        <Method name="setTroque" returnType="void" visibility="public">
+          <Argument type="float" name="troque"/>
+        </Method>
+        <Method name="getCarburador" returnType="Carburador" visibility="public"/>
+        <Method name="setCarburador" returnType="void" visibility="public">
+          <Argument type="Carburador" name="carburador"/>
+        </Method>
+        <Method name="getCilindro" returnType="Cilindro" visibility="public"/>
+        <Method name="setCilindro" returnType="void" visibility="public">
+          <Argument type="Cilindro" name="cilindro"/>
+        </Method>
+        <Method name="getPistones" returnType="Piston[]" visibility="public"/>
+        <Method name="setPistones" returnType="void" visibility="public">
+          <Argument type="Piston[]" name="pistones"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Piston" package="proyecto23" visibility="public" xPosition="1142.0" yPosition="449.0">
+      <Fields>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="modelo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="getModelo" returnType="String" visibility="public"/>
+        <Method name="setModelo" returnType="void" visibility="public">
+          <Argument type="String" name="modelo"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Profesor" package="proyecto23" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="numEco" type="String" visibility="private"/>
+        <Field name="perteneceA" type="Departamento" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="numEco"/>
+          <Argument type="Departamento" name="perteneceA"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getNumEco" returnType="String" visibility="public"/>
+        <Method name="setNumEco" returnType="void" visibility="public">
+          <Argument type="String" name="numEco"/>
+        </Method>
+        <Method name="getPerteneceA" returnType="Departamento" visibility="public"/>
+        <Method name="setPerteneceA" returnType="void" visibility="public">
+          <Argument type="Departamento" name="perteneceA"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Proyecto23" package="proyecto23" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="perteneceA" source="proyecto23.Profesor" target="proyecto23.Departamento" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="carburador" source="proyecto23.Motor" target="proyecto23.Carburador" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyecto23.Motor" target="proyecto23.Cilindro" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cilindro" source="proyecto23.Motor" target="proyecto23.Cilindro" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyecto23.Motor" target="proyecto23.Piston" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyecto23.Departamento" target="proyecto23.Profesor" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyecto23.Profesor" target="proyecto23.Departamento" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyecto23.Motor" target="proyecto23.Carburador" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Tarea3">
+  <ClassDiagramComponents>
+    <Class name="Camioneta" package="tarea3" visibility="public" xPosition="568.0" yPosition="675.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="numplacas"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="dias_alquiler"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="alquiler" returnType="float" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Camion_Carga" package="tarea3" visibility="public" xPosition="174.0" yPosition="929.0">
+      <Fields>
+        <Field name="pma" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="numplacas"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="dias_alquiler"/>
+          <Argument type="float" name="pma"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPma" returnType="float" visibility="public"/>
+        <Method name="setPma" returnType="void" visibility="public">
+          <Argument type="float" name="pma"/>
+        </Method>
+        <Method name="alquiler" returnType="float" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Coche" package="tarea3" visibility="public" xPosition="1447.0" yPosition="1005.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="numplacas"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="dias_alquiler"/>
+          <Argument type="int" name="num_asientos"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="alquiler" returnType="float" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Microbus" package="tarea3" visibility="public" xPosition="1077.0" yPosition="720.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="numplacas"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="dias_alquiler"/>
+          <Argument type="int" name="num_asientos"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="alquiler" returnType="float" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Principal" package="tarea3" visibility="public" xPosition="952.0" yPosition="507.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Transporte_Carga" package="tarea3" visibility="public" isAbstract="true" xPosition="363.0" yPosition="433.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="numplacas"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="dias_alquiler"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Transporte_Persona" package="tarea3" visibility="public" isAbstract="true" xPosition="1223.0" yPosition="446.0">
+      <Fields>
+        <Field name="num_asientos" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="numplacas"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="dias_alquiler"/>
+          <Argument type="int" name="num_asientos"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNum_asientos" returnType="int" visibility="public"/>
+        <Method name="setNum_asientos" returnType="void" visibility="public">
+          <Argument type="int" name="num_asientos"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Vehiculo" package="tarea3" visibility="public" isAbstract="true" xPosition="856.0" yPosition="20.0">
+      <Fields>
+        <Field name="numplacas" type="String" visibility="private"/>
+        <Field name="dias_alquiler" type="int" visibility="private"/>
+        <Field name="precio_base" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="numplacas"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="dias_alquiler"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPrecio_base" returnType="float" visibility="public"/>
+        <Method name="setPrecio_base" returnType="void" visibility="public">
+          <Argument type="float" name="precio_base"/>
+        </Method>
+        <Method name="getDias_alquiler" returnType="int" visibility="public"/>
+        <Method name="setDias_alquiler" returnType="void" visibility="public">
+          <Argument type="int" name="dias_alquiler"/>
+        </Method>
+        <Method name="getNumplacas" returnType="String" visibility="public"/>
+        <Method name="setNumplacas" returnType="void" visibility="public">
+          <Argument type="String" name="numplacas"/>
+        </Method>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="getModelo" returnType="String" visibility="public"/>
+        <Method name="setModelo" returnType="void" visibility="public">
+          <Argument type="String" name="modelo"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Calculo" package="tarea3" visibility="public" xPosition="932.0" yPosition="1005.0">
+      <Methods>
+        <Method name="alquiler" returnType="float" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="tarea3.Microbus" target="tarea3.Transporte_Persona"/>
+    <IsRelation name="is" source="tarea3.Transporte_Persona" target="tarea3.Vehiculo"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="tarea3.Microbus" target="tarea3.Calculo"/>
+    <IsRelation name="is" source="tarea3.Coche" target="tarea3.Transporte_Persona"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="tarea3.Camion_Carga" target="tarea3.Calculo"/>
+    <IsRelation name="is" source="tarea3.Camion_Carga" target="tarea3.Transporte_Carga"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="tarea3.Coche" target="tarea3.Calculo"/>
+    <IsRelation name="is" source="tarea3.Transporte_Carga" target="tarea3.Vehiculo"/>
+    <IsRelation name="is" source="tarea3.Camioneta" target="tarea3.Transporte_Carga"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="tarea3.Camioneta" target="tarea3.Calculo"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

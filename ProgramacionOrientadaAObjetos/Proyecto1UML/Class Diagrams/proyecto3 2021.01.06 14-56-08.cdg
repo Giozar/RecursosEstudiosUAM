@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="proyecto3">
+  <ClassDiagramComponents>
+    <Class name="Estudiante" package="proyecto3" visibility="public" xPosition="23.0" yPosition="36.0">
+      <Fields>
+        <Field name="matricula" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="ocupacion"/>
+          <Argument type="int" name="edad"/>
+          <Argument type="String" name="genero"/>
+          <Argument type="String" name="matricula"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMatricula" returnType="String" visibility="public"/>
+        <Method name="setMatricula" returnType="void" visibility="public">
+          <Argument type="String" name="matricula"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Maestro" package="proyecto3" visibility="public" xPosition="591.0" yPosition="36.0">
+      <Fields>
+        <Field name="numEco" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="ocupacion"/>
+          <Argument type="int" name="edad"/>
+          <Argument type="String" name="genero"/>
+          <Argument type="String" name="numEco"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNumEco" returnType="String" visibility="public"/>
+        <Method name="setNumEco" returnType="void" visibility="public">
+          <Argument type="String" name="numEco"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Mueble" package="proyecto3" visibility="public" xPosition="772.0" yPosition="482.0">
+      <Fields>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="material" type="String" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="descripcion"/>
+          <Argument type="String" name="material"/>
+          <Argument type="String" name="color"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getMaterial" returnType="String" visibility="public"/>
+        <Method name="setMaterial" returnType="void" visibility="public">
+          <Argument type="String" name="material"/>
+        </Method>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Persona" package="proyecto3" visibility="public" xPosition="223.0" yPosition="512.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="ocupacion" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="genero" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="ocupacion"/>
+          <Argument type="int" name="edad"/>
+          <Argument type="String" name="genero"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getOcupacion" returnType="String" visibility="public"/>
+        <Method name="setOcupacion" returnType="void" visibility="public">
+          <Argument type="String" name="ocupacion"/>
+        </Method>
+        <Method name="getEdad" returnType="int" visibility="public"/>
+        <Method name="setEdad" returnType="void" visibility="public">
+          <Argument type="int" name="edad"/>
+        </Method>
+        <Method name="getGenero" returnType="String" visibility="public"/>
+        <Method name="setGenero" returnType="void" visibility="public">
+          <Argument type="String" name="genero"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Proyecto3" package="proyecto3" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="UtilEscolar" package="proyecto3" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="marca" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="descripcion"/>
+          <Argument type="String" name="marca"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="proyecto3.Estudiante" target="proyecto3.Persona"/>
+    <IsRelation name="is" source="proyecto3.Maestro" target="proyecto3.Persona"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

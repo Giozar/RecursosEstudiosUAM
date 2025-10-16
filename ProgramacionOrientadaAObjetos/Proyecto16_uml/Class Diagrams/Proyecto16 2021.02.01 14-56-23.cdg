@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Proyecto16">
+  <ClassDiagramComponents>
+    <Class name="Camion" package="proyecto16" visibility="public" xPosition="183.0" yPosition="514.0">
+      <Fields>
+        <Field name="PMI" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="placa"/>
+          <Argument type="float" name="PMI"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPMI" returnType="float" visibility="public"/>
+        <Method name="setPMI" returnType="void" visibility="public">
+          <Argument type="float" name="PMI"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+        <Method name="alquiler" returnType="float" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Coche" package="proyecto16" visibility="public" xPosition="85.0" yPosition="39.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Proyecto16" package="proyecto16" visibility="public" xPosition="68.0" yPosition="163.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TransporteCarga" package="proyecto16" visibility="public" xPosition="465.0" yPosition="39.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="placa"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="TransportePersona" package="proyecto16" visibility="public" xPosition="687.0" yPosition="456.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Vehiculo" package="proyecto16" visibility="public" xPosition="845.0" yPosition="390.0">
+      <Fields>
+        <Field name="placa" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="placa"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPlaca" returnType="String" visibility="public"/>
+        <Method name="setPlaca" returnType="void" visibility="public">
+          <Argument type="String" name="placa"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="proyecto16.TransporteCarga" target="proyecto16.Vehiculo"/>
+    <IsRelation name="is" source="proyecto16.Camion" target="proyecto16.TransporteCarga"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

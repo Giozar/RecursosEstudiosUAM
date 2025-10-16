@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Proyecto23">
+  <ClassDiagramComponents>
+    <Class name="Departamento" package="proyecto23" visibility="public" xPosition="87.0" yPosition="184.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="division" type="String" visibility="private"/>
+        <Field name="profesores" type="Profesor[]" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="division"/>
+          <Argument type="Profesor[]" name="profesores"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getDivision" returnType="String" visibility="public"/>
+        <Method name="setDivision" returnType="void" visibility="public">
+          <Argument type="String" name="division"/>
+        </Method>
+        <Method name="getProfesores" returnType="Profesor[]" visibility="public"/>
+        <Method name="setProfesores" returnType="void" visibility="public">
+          <Argument type="Profesor[]" name="profesores"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Profesor" package="proyecto23" visibility="public" xPosition="813.0" yPosition="184.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="numEco" type="String" visibility="private"/>
+        <Field name="perteneceA" type="Departamento" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="numEco"/>
+          <Argument type="Departamento" name="perteneceA"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getNumEco" returnType="String" visibility="public"/>
+        <Method name="setNumEco" returnType="void" visibility="public">
+          <Argument type="String" name="numEco"/>
+        </Method>
+        <Method name="getPerteneceA" returnType="Departamento" visibility="public"/>
+        <Method name="setPerteneceA" returnType="void" visibility="public">
+          <Argument type="Departamento" name="perteneceA"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Proyecto23" package="proyecto23" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="perteneceA" source="proyecto23.Profesor" target="proyecto23.Departamento" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyecto23.Profesor" target="proyecto23.Departamento" sourceCardinality="1..1" targetCardinality="0..1"/>
+    <UseRelation source="proyecto23.Departamento" target="proyecto23.Profesor" sourceCardinality="0..*" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

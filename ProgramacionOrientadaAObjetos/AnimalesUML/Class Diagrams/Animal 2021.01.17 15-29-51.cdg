@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Animal">
+  <ClassDiagramComponents>
+    <Class name="Anfibio" package="animal" visibility="public" xPosition="24.0" yPosition="173.0">
+      <Fields>
+        <Field name="colorPiel" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="String" name="colorPiel"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getColorPiel" returnType="String" visibility="public"/>
+        <Method name="setColorPiel" returnType="void" visibility="public">
+          <Argument type="String" name="colorPiel"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Animal" package="animal" visibility="public" xPosition="391.0" yPosition="31.0">
+      <Fields>
+        <Field name="tipoNombre" type="String" visibility="private"/>
+        <Field name="tipoPiel" type="String" visibility="private"/>
+        <Field name="tipoRespiracion" type="String" visibility="private"/>
+        <Field name="tipoReproduccion" type="String" visibility="private"/>
+        <Field name="tipohabitad" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTipoNombre" returnType="String" visibility="public"/>
+        <Method name="setTipoNombre" returnType="void" visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+        </Method>
+        <Method name="getTipoPiel" returnType="String" visibility="public"/>
+        <Method name="setTipoPiel" returnType="void" visibility="public">
+          <Argument type="String" name="tipoPiel"/>
+        </Method>
+        <Method name="getTipoRespiracion" returnType="String" visibility="public"/>
+        <Method name="setTipoRespiracion" returnType="void" visibility="public">
+          <Argument type="String" name="tipoRespiracion"/>
+        </Method>
+        <Method name="getTipoReproduccion" returnType="String" visibility="public"/>
+        <Method name="setTipoReproduccion" returnType="void" visibility="public">
+          <Argument type="String" name="tipoReproduccion"/>
+        </Method>
+        <Method name="getTipohabitad" returnType="String" visibility="public"/>
+        <Method name="setTipohabitad" returnType="void" visibility="public">
+          <Argument type="String" name="tipohabitad"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Ave" package="animal" visibility="public" xPosition="469.0" yPosition="449.0">
+      <Fields>
+        <Field name="vuela" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="boolean" name="vuela"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="isVuela" returnType="boolean" visibility="public"/>
+        <Method name="setVuela" returnType="void" visibility="public">
+          <Argument type="boolean" name="vuela"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Mamifero" package="animal" visibility="public" xPosition="825.0" yPosition="254.0">
+      <Fields>
+        <Field name="terrestre" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="boolean" name="terrestre"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="isTerrestre" returnType="boolean" visibility="public"/>
+        <Method name="setTerrestre" returnType="void" visibility="public">
+          <Argument type="boolean" name="terrestre"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Marsupial" package="animal" visibility="public" xPosition="704.0" yPosition="450.0">
+      <Fields>
+        <Field name="tamano" type="String" visibility="private"/>
+        <Field name="tipoalimentacion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="boolean" name="terrestre"/>
+          <Argument type="String" name="tamano"/>
+          <Argument type="String" name="tipoalimentacion"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTamano" returnType="String" visibility="public"/>
+        <Method name="setTamano" returnType="void" visibility="public">
+          <Argument type="String" name="tamano"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Monotrema" package="animal" visibility="public" xPosition="1179.0" yPosition="31.0">
+      <Fields>
+        <Field name="espinas" type="boolean" visibility="private"/>
+        <Field name="ornitorinco" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="boolean" name="terrestre"/>
+          <Argument type="boolean" name="espinas"/>
+          <Argument type="boolean" name="ornitorinco"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="isEspinas" returnType="boolean" visibility="public"/>
+        <Method name="setEspinas" returnType="void" visibility="public">
+          <Argument type="boolean" name="espinas"/>
+        </Method>
+        <Method name="isOrnitorinco" returnType="boolean" visibility="public"/>
+        <Method name="setOrnitorinco" returnType="void" visibility="public">
+          <Argument type="boolean" name="ornitorinco"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Pez" package="animal" visibility="public" xPosition="800.0" yPosition="39.0">
+      <Fields>
+        <Field name="numOjos" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="int" name="numOjos"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNumOjos" returnType="int" visibility="public"/>
+        <Method name="setNumOjos" returnType="void" visibility="public">
+          <Argument type="int" name="numOjos"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Placentario" package="animal" visibility="public" xPosition="1169.0" yPosition="254.0">
+      <Fields>
+        <Field name="tipoalimentacion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="boolean" name="terrestre"/>
+          <Argument type="String" name="tipoalimentacion"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTipoalimentacion" returnType="String" visibility="public"/>
+        <Method name="setTipoalimentacion" returnType="void" visibility="public">
+          <Argument type="String" name="tipoalimentacion"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Principal" package="animal" visibility="public" xPosition="47.0" yPosition="39.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Reptil" package="animal" visibility="public" xPosition="62.0" yPosition="348.0">
+      <Fields>
+        <Field name="tienePatas" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="tipoNombre"/>
+          <Argument type="String" name="tipoPiel"/>
+          <Argument type="String" name="tipoRespiracion"/>
+          <Argument type="String" name="tipoReproduccion"/>
+          <Argument type="String" name="tipohabitad"/>
+          <Argument type="boolean" name="tienePatas"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="isTienePatas" returnType="boolean" visibility="public"/>
+        <Method name="setTienePatas" returnType="void" visibility="public">
+          <Argument type="boolean" name="tienePatas"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="tester" package="animal" visibility="public" xPosition="138.0" yPosition="571.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="animal.Monotrema" target="animal.Mamifero"/>
+    <IsRelation name="is" source="animal.Mamifero" target="animal.Animal"/>
+    <IsRelation name="is" source="animal.Marsupial" target="animal.Mamifero"/>
+    <IsRelation name="is" source="animal.Reptil" target="animal.Animal"/>
+    <IsRelation name="is" source="animal.Pez" target="animal.Animal"/>
+    <IsRelation name="is" source="animal.Anfibio" target="animal.Animal"/>
+    <IsRelation name="is" source="animal.Placentario" target="animal.Mamifero"/>
+    <IsRelation name="is" source="animal.Ave" target="animal.Animal"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="proyecto3">
+  <ClassDiagramComponents>
+    <Class name="Mueble" package="proyecto3" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="material" type="String" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="descripcion"/>
+          <Argument type="String" name="material"/>
+          <Argument type="String" name="color"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getMaterial" returnType="String" visibility="public"/>
+        <Method name="setMaterial" returnType="void" visibility="public">
+          <Argument type="String" name="material"/>
+        </Method>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Persona" package="proyecto3" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="ocupacion" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="genero" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="ocupacion"/>
+          <Argument type="int" name="edad"/>
+          <Argument type="String" name="genero"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getOcupacion" returnType="String" visibility="public"/>
+        <Method name="setOcupacion" returnType="void" visibility="public">
+          <Argument type="String" name="ocupacion"/>
+        </Method>
+        <Method name="getEdad" returnType="int" visibility="public"/>
+        <Method name="setEdad" returnType="void" visibility="public">
+          <Argument type="int" name="edad"/>
+        </Method>
+        <Method name="getGenero" returnType="String" visibility="public"/>
+        <Method name="setGenero" returnType="void" visibility="public">
+          <Argument type="String" name="genero"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Proyecto3" package="proyecto3" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="UtilEscolar" package="proyecto3" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="marca" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="descripcion"/>
+          <Argument type="String" name="marca"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

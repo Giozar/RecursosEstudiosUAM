@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Proyecto7">
+  <ClassDiagramComponents>
+    <Class name="Entrenador" package="proyecto7" visibility="public" xPosition="391.0" yPosition="455.0">
+      <Fields>
+        <Field name="nacionalidad" type="String" visibility="private"/>
+        <Field name="experiencia" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="edad"/>
+          <Argument type="String" name="correo"/>
+          <Argument type="String" name="nacionalidad"/>
+          <Argument type="String" name="experiencia"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNacionalidad" returnType="String" visibility="public"/>
+        <Method name="setNacionalidad" returnType="void" visibility="public">
+          <Argument type="String" name="nacionalidad"/>
+        </Method>
+        <Method name="getExperiencia" returnType="String" visibility="public"/>
+        <Method name="setExperiencia" returnType="void" visibility="public">
+          <Argument type="String" name="experiencia"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Futbolista" package="proyecto7" visibility="public" xPosition="-12.0" yPosition="220.0">
+      <Fields>
+        <Field name="posicion" type="String" visibility="private"/>
+        <Field name="numero" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="edad"/>
+          <Argument type="String" name="correo"/>
+          <Argument type="String" name="posicion"/>
+          <Argument type="int" name="numero"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPosicion" returnType="String" visibility="public"/>
+        <Method name="setPosicion" returnType="void" visibility="public">
+          <Argument type="String" name="posicion"/>
+        </Method>
+        <Method name="getNumero" returnType="int" visibility="public"/>
+        <Method name="setNumero" returnType="void" visibility="public">
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Masajista" package="proyecto7" visibility="public" xPosition="-75.0" yPosition="20.0">
+      <Fields>
+        <Field name="profesion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="edad"/>
+          <Argument type="String" name="correo"/>
+          <Argument type="String" name="profesion"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getProfesion" returnType="String" visibility="public"/>
+        <Method name="setProfesion" returnType="void" visibility="public">
+          <Argument type="String" name="profesion"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Persona" package="proyecto7" visibility="public" xPosition="529.0" yPosition="33.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="edad" type="String" visibility="private"/>
+        <Field name="correo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="edad"/>
+          <Argument type="String" name="correo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getEdad" returnType="String" visibility="public"/>
+        <Method name="setEdad" returnType="void" visibility="public">
+          <Argument type="String" name="edad"/>
+        </Method>
+        <Method name="getCorreo" returnType="String" visibility="public"/>
+        <Method name="setCorreo" returnType="void" visibility="public">
+          <Argument type="String" name="correo"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Proyecto7" package="proyecto7" visibility="public" xPosition="978.0" yPosition="58.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Simulacion" package="proyecto7" visibility="public" xPosition="1000.0" yPosition="255.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="imprimeListaEquipo" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Persona[]" name="seleccion"/>
+        </Method>
+        <Method name="partido" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Persona[]" name="seleccionCasa"/>
+          <Argument type="Persona[]" name="seleccionVisitante"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="tester" package="proyecto7" visibility="public" xPosition="1218.0" yPosition="58.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="proyecto7.Masajista" target="proyecto7.Persona"/>
+    <UseRelation source="proyecto7.Simulacion" target="proyecto7.Persona" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="proyecto7.Entrenador" target="proyecto7.Persona"/>
+    <IsRelation name="is" source="proyecto7.Futbolista" target="proyecto7.Persona"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
