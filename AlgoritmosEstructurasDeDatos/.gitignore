@@ -1,0 +1,46 @@
+# Compilados y Ejecutables
+# Ignora todos los archivos .exe (Windows)
+*.exe
+
+# Ignora archivos objeto y librerías estáticas/dinámicas
+*.o
+*.obj
+*.out
+*.app
+*.so
+*.dll
+*.dylib
+
+# Configuración de VS Code
+# Es mejor no subir la carpeta .vscode ya que contiene rutas locales de tu PC
+.vscode/
+
+# Archivos temporales o de depuración
+*.log
+*.pud
+*.ilk
+*.exp
+
+# Otros archivos generados por el compilador
+*.gch
+*.pch
+
+# --- Binarios y Ejecutables (Basura de compilación) ---
+*.exe
+*.o
+*.obj
+*.out
+*.app
+
+# --- Archivos temporales de Code::Blocks ---
+# Estos guardan qué archivos tenías abiertos y dependencias locales
+*.depend
+*.layout
+
+# --- Configuración de Editores ---
+.vscode/
+.idea/
+
+# --- Otros temporales ---
+*.log
+*.tmp
